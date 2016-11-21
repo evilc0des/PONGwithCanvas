@@ -1,0 +1,39 @@
+canvas {
+    position: absolute;
+    display: none;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#preloader {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#preloader h3{
+    font-family: 'Bungee Inline', cursive;
+}
+
+#preloader h1{
+    margin-top: 0;
+    font-size: 100px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#name-box {
+    display: none;
+    font-family: 'Nixie One', cursive;
+}
+
+#name-box input{
+    font-size: 30px;
+    border: none;
+    border-bottom: solid thin;
+    border-bottom-color: #9a9ca0;
+    font-family: 'Press Start 2P', cursive;
+    width: 200px;
+    text-align: center;
+}
