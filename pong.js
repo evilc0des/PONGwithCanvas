@@ -202,6 +202,10 @@ function main(){
 	document.addEventListener("keyup", function(evt) {
 		delete keystate[evt.keyCode];
 	});
+	//Audio Setup
+	var bgSound = new Audio('https://s3-us-west-2.amazonaws.com/extrasdksaha/RetroGameSound001');
+	bgSound.loop = true;
+	bgSound.play();
     
     // The main game loop
 	var loop = function() {
